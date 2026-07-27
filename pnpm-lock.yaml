@@ -1096,8 +1096,8 @@ importers:
         specifier: ^1.2.0
         version: 1.2.0
       xslt-processor:
-        specifier: ^3.4.0
-        version: 3.4.0
+        specifier: ^5.0.0
+        version: 5.0.12
       yaml:
         specifier: ^2.9.0
         version: 2.9.0
@@ -11527,8 +11527,8 @@ packages:
     resolution: {integrity: sha512-FxF6+rkr1rNSQrhUNYrAFJpRXNzlDoMxeXN5qI84939ylEv3qqPFKa85Oxr6tDaJKqwW6KKyo2v26TSv3k6LeA==}
     engines: {node: '>=0.6.0'}
 
-  xslt-processor@3.4.0:
-    resolution: {integrity: sha512-hvsduzQNZSQD+ttrUSEg2wGOmmDekdo46IUis2s01l/4pNabNWAREEPoVEmzR3ZXbdcB5sR2q1AOTOyTtounAg==}
+  xslt-processor@5.0.12:
+    resolution: {integrity: sha512-Mb3SNIdPKDc8gtfFA2Pv8CHYuCGO3FFSYRPLZyDIOUuG92n9lThKXSOCYTAttdCxLD9IRI73g+gWwIXtcpJVZg==}
 
   xss@1.0.15:
     resolution: {integrity: sha512-FVdlVVC67WOIPvfOwhoMETV72f6GbW7aOabBC3WxN/oUdoEMDyLz4OgRv5/gck2ZeNqEQu+Tb0kloovXOfpYVg==}
@@ -22892,9 +22892,7 @@ snapshots:
 
   xpath@0.0.34: {}
 
-  xslt-processor@3.4.0:
-    dependencies:
-      he: 1.2.0
+  xslt-processor@5.0.12: {}
 
   xss@1.0.15:
     dependencies:
