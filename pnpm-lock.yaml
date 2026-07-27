@@ -389,7 +389,7 @@ importers:
         version: 3.2.0(date-fns@4.4.0)
       date-holidays:
         specifier: ^3.33.0
-        version: 3.33.0
+        version: 3.34.0
       decimal.js:
         specifier: ^10.6.0
         version: 10.6.0
@@ -6348,8 +6348,8 @@ packages:
     resolution: {integrity: sha512-h09ZEtM6u5cYM6m1bX+1Ny9f+nLO9KVZUKNPEnH7lhbXYTfqZogaGTnhONswGeIJFF91UImIftS3CdM9HLW5oQ==}
     engines: {node: '>=12.0.0'}
 
-  date-holidays@3.33.0:
-    resolution: {integrity: sha512-1pqbC8hOYlWh6K1XxBvR7uZa+EqUauudJah2SIhPNet7wh8DJGvVY1AziUUpq0+pqhxLW04Jobj6sYer0/6oLw==}
+  date-holidays@3.34.0:
+    resolution: {integrity: sha512-RHlOpQ0Pj9/vfLDo+n4oWQEEImT1krteY1lxGA7h1BviJnmVL82+fp5Pn6/7xc6A9/vCcJeOJR9hT7K01QEqQw==}
     engines: {node: '>=12.0.0'}
     hasBin: true
 
@@ -8062,8 +8062,8 @@ packages:
     resolution: {integrity: sha512-1td788aAnnZ5qs7V2QIRl1owjtYpbKt749Y3xauqQgwIIGF/xXWz1wMTEBx5O3LK3lXLVuqXPdPxj2BoFHaW9Q==}
     hasBin: true
 
-  js-yaml@5.2.1:
-    resolution: {integrity: sha512-zfLtNfQqxVqq3uaTqSkh4x4hZw3KHobGUA0fJUj4wawW8bsQLTVqpHdXSIzidh7o+4lEW36tANuAGdaFx6Zgnw==}
+  js-yaml@5.2.2:
+    resolution: {integrity: sha512-dayzUzKkJ1MkuUtZglSebU43utNXH0OWQByK9rKOOuYIO8M5TV1y+n8ALMdG0rdzBnfNkOmZEqrURepb0ejqBw==}
     hasBin: true
 
   jsbarcode@3.12.3:
@@ -16987,10 +16987,10 @@ snapshots:
       jalaali-js: 1.2.8
       moment-timezone: 0.5.48
 
-  date-holidays@3.33.0:
+  date-holidays@3.34.0:
     dependencies:
       date-holidays-parser: 3.4.7
-      js-yaml: 5.2.1
+      js-yaml: 5.2.2
       lodash: 4.18.1
       prepin: 1.0.3
 
@@ -18869,7 +18869,7 @@ snapshots:
     dependencies:
       argparse: 2.0.1
 
-  js-yaml@5.2.1:
+  js-yaml@5.2.2:
     dependencies:
       argparse: 2.0.1
 
