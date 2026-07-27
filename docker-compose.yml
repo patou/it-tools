@@ -1,7 +1,7 @@
 services:
   it-tools:
     container_name: it-tools
-    image: sharevb/it-tools:latest
+    image: sharevb/it-tools:latest@sha256:dc76937113a0a22f86cc3711e7a1c87937cb4d78a0fc048ccbfaad1bc571fdce
     pull_policy: always
     restart: unless-stopped
     ports:
