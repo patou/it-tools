@@ -1016,7 +1016,7 @@ importers:
         version: 2.0.4
       unpdf:
         specifier: ^1.6.2
-        version: 1.6.2(@napi-rs/canvas@0.1.100)
+        version: 1.8.0(@napi-rs/canvas@0.1.100)
       unplugin-auto-import:
         specifier: ^21.0.0
         version: 21.0.0(@vueuse/core@10.11.1(vue@3.5.39(typescript@6.0.3)))
@@ -10795,10 +10795,11 @@ packages:
       '@unocss/webpack':
         optional: true
 
-  unpdf@1.6.2:
-    resolution: {integrity: sha512-zQ80ySoPuPHOsvIoRp/nJyQt8TOUoTh1+WBCGcBvlddQNgKDLRwm0AY3x8Q35I7+kIiRSgqMx+Ma2pl9McIp7A==}
+  unpdf@1.8.0:
+    resolution: {integrity: sha512-jQlkckbe5nKxRHQdbvo9IKHlU6Cjq00UlxxB8lrCIxvS2o5IbAL1wM+4a1Yc3+BIohg9p5AsoaftwO+G4Aq/qQ==}
+    engines: {node: '>=22'}
     peerDependencies:
-      '@napi-rs/canvas': ^0.1.69
+      '@napi-rs/canvas': ^0.1.69 || ^1.0.0
     peerDependenciesMeta:
       '@napi-rs/canvas':
         optional: true
@@ -21980,7 +21981,7 @@ snapshots:
     transitivePeerDependencies:
       - vite
 
-  unpdf@1.6.2(@napi-rs/canvas@0.1.100):
+  unpdf@1.8.0(@napi-rs/canvas@0.1.100):
     optionalDependencies:
       '@napi-rs/canvas': 0.1.100
 
